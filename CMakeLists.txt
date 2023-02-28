@@ -3,4 +3,4 @@ project(Homework1 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Homework1 Factorial.c Calculator.c)
+add_executable(Homework1 Factorial.c Calculator.c AgeCalculator.c AgeCalculator.c Circle.c)

@@ -1,0 +1,15 @@
+mkdir ~/unix_hw
+cd ~/unix_hw
+touch helloworld.c
+mkdir output
+gcc helloworld.c -o output/helloworld
+cd output
+./helloworld
+touch notes.txt
+mv notes.txt unix_hw
+rm ~/unix_hw/output/notes.txt
+rm -r ~/unix_hw/output
+
+
+# gcc helloworld.c -o output/helloworld wasn't working on unix for some reason, I think something isn't working with
+my computer
